@@ -1,0 +1,218 @@
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+
+> Task :compileTestJava FAILED
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:4: error: package org.example.dto does not exist
+import org.example.dto.DnaRequest;
+                      ^
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:5: error: package org.example.service does not exist
+import org.example.service.MutantService;
+                          ^
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:6: error: package org.example.service does not exist
+import org.example.service.StatsService;
+                          ^
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:26: error: cannot find symbol
+    private MutantService mutantService;
+            ^
+  symbol:   class MutantService
+  location: class MutantControllerTest
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:29: error: cannot find symbol
+    private StatsService statsService;
+            ^
+  symbol:   class StatsService
+  location: class MutantControllerTest
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\StatsControllerTest.java:3: error: package org.example.dto does not exist
+import org.example.dto.StatsResponse;
+                      ^
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\StatsControllerTest.java:4: error: package org.example.service does not exist
+import org.example.service.StatsService;
+                          ^
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\StatsControllerTest.java:24: error: cannot find symbol
+    private StatsService statsService;
+            ^
+  symbol:   class StatsService
+  location: class StatsControllerTest
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:19: error: cannot find symbol
+@WebMvcTest(MutantController.class)
+            ^
+  symbol: class MutantController
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\StatsControllerTest.java:17: error: cannot find symbol
+@WebMvcTest(StatsController.class)
+            ^
+  symbol: class StatsController
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:37: error: cannot find symbol
+        DnaRequest request = new DnaRequest();
+        ^
+  symbol:   class DnaRequest
+  location: class MutantControllerTest
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:37: error: cannot find symbol
+        DnaRequest request = new DnaRequest();
+                                 ^
+  symbol:   class DnaRequest
+  location: class MutantControllerTest
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:51: error: cannot find symbol
+        DnaRequest request = new DnaRequest();
+        ^
+  symbol:   class DnaRequest
+  location: class MutantControllerTest
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:51: error: cannot find symbol
+        DnaRequest request = new DnaRequest();
+                                 ^
+  symbol:   class DnaRequest
+  location: class MutantControllerTest
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:65: error: cannot find symbol
+        DnaRequest request = new DnaRequest();
+        ^
+  symbol:   class DnaRequest
+  location: class MutantControllerTest
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:65: error: cannot find symbol
+        DnaRequest request = new DnaRequest();
+                                 ^
+  symbol:   class DnaRequest
+  location: class MutantControllerTest
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:76: error: cannot find symbol
+        DnaRequest request = new DnaRequest();
+        ^
+  symbol:   class DnaRequest
+  location: class MutantControllerTest
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:76: error: cannot find symbol
+        DnaRequest request = new DnaRequest();
+                                 ^
+  symbol:   class DnaRequest
+  location: class MutantControllerTest
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:88: error: cannot find symbol
+        DnaRequest request = new DnaRequest();
+        ^
+  symbol:   class DnaRequest
+  location: class MutantControllerTest
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:88: error: cannot find symbol
+        DnaRequest request = new DnaRequest();
+                                 ^
+  symbol:   class DnaRequest
+  location: class MutantControllerTest
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\StatsControllerTest.java:28: error: cannot find symbol
+        StatsResponse mockStats = new StatsResponse(40, 100, 0.4);
+        ^
+  symbol:   class StatsResponse
+  location: class StatsControllerTest
+C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\StatsControllerTest.java:28: error: cannot find symbol
+        StatsResponse mockStats = new StatsResponse(40, 100, 0.4);
+                                      ^
+  symbol:   class StatsResponse
+  location: class StatsControllerTest
+22 errors
+
+[Incubating] Problems report is available at: file:///C:/Users/roman/OneDrive/Escritorio/IntegradoDSFRomanMolina51202/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileTestJava'.
+> Compilation failed; see the compiler output below.
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:26: error: cannot find symbol
+      private MutantService mutantService;
+              ^
+    symbol:   class MutantService
+    location: class MutantControllerTest
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:29: error: cannot find symbol
+      private StatsService statsService;
+              ^
+    symbol:   class StatsService
+    location: class MutantControllerTest
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\StatsControllerTest.java:24: error: cannot find symbol
+      private StatsService statsService;
+              ^
+    symbol:   class StatsService
+    location: class StatsControllerTest
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:37: error: cannot find symbol
+          DnaRequest request = new DnaRequest();
+          ^
+    symbol:   class DnaRequest
+    location: class MutantControllerTest
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:37: error: cannot find symbol
+          DnaRequest request = new DnaRequest();
+                                   ^
+    symbol:   class DnaRequest
+    location: class MutantControllerTest
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:51: error: cannot find symbol
+          DnaRequest request = new DnaRequest();
+          ^
+    symbol:   class DnaRequest
+    location: class MutantControllerTest
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:51: error: cannot find symbol
+          DnaRequest request = new DnaRequest();
+                                   ^
+    symbol:   class DnaRequest
+    location: class MutantControllerTest
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:65: error: cannot find symbol
+          DnaRequest request = new DnaRequest();
+          ^
+    symbol:   class DnaRequest
+    location: class MutantControllerTest
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:65: error: cannot find symbol
+          DnaRequest request = new DnaRequest();
+                                   ^
+    symbol:   class DnaRequest
+    location: class MutantControllerTest
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:76: error: cannot find symbol
+          DnaRequest request = new DnaRequest();
+          ^
+    symbol:   class DnaRequest
+    location: class MutantControllerTest
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:76: error: cannot find symbol
+          DnaRequest request = new DnaRequest();
+                                   ^
+    symbol:   class DnaRequest
+    location: class MutantControllerTest
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:88: error: cannot find symbol
+          DnaRequest request = new DnaRequest();
+          ^
+    symbol:   class DnaRequest
+    location: class MutantControllerTest
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:88: error: cannot find symbol
+          DnaRequest request = new DnaRequest();
+                                   ^
+    symbol:   class DnaRequest
+    location: class MutantControllerTest
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\StatsControllerTest.java:28: error: cannot find symbol
+          StatsResponse mockStats = new StatsResponse(40, 100, 0.4);
+          ^
+    symbol:   class StatsResponse
+    location: class StatsControllerTest
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\StatsControllerTest.java:28: error: cannot find symbol
+          StatsResponse mockStats = new StatsResponse(40, 100, 0.4);
+                                        ^
+    symbol:   class StatsResponse
+    location: class StatsControllerTest
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:19: error: cannot find symbol
+  @WebMvcTest(MutantController.class)
+              ^
+    symbol: class MutantController
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\StatsControllerTest.java:17: error: cannot find symbol
+  @WebMvcTest(StatsController.class)
+              ^
+    symbol: class StatsController
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:4: error: package org.example.dto does not exist
+  import org.example.dto.DnaRequest;
+                        ^
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:5: error: package org.example.service does not exist
+  import org.example.service.MutantService;
+                            ^
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\MutantControllerTest.java:6: error: package org.example.service does not exist
+  import org.example.service.StatsService;
+                            ^
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\StatsControllerTest.java:3: error: package org.example.dto does not exist
+  import org.example.dto.StatsResponse;
+                        ^
+  C:\Users\roman\OneDrive\Escritorio\IntegradoDSFRomanMolina51202\src\test\java\com\dna\analyzer\controller\StatsControllerTest.java:4: error: package org.example.service does not exist
+  import org.example.service.StatsService;
+                            ^
+  22 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 3s
+3 actionable tasks: 1 executed, 2 up-to-date
